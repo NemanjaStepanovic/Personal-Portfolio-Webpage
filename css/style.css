@@ -2,7 +2,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url("http://kaba35.com/wp-content/uploads/2015/11/Savin-NY-Website-Background-Web.jpg");
+  background-image: url("http://cpn.rs/nioo/wp-content/uploads/2018/02/background.jpg");
   background-attachment: fixed;
   background-size: 100% 100%;
   font-family: Garamond, serif;
@@ -68,7 +68,7 @@ nav ul li a:hover {
 header {
   text-align: center;
   padding: 15% 10%;
-  color: #0040ff;
+  color: darkblue;
   font-size: 2.2rem;
   height: 55vh;
   font-family: algerian, serif;
@@ -111,7 +111,7 @@ header {
 #portfolioImages a img {
   width: 45%;
   margin: 2%;
-  border: 1px solid green;
+  border: 1px solid darkblue;
   border-radius: 10px;
   height: 300px;
 }
@@ -127,10 +127,6 @@ header {
 .contactBox p {
   text-indent: 5%;
   text-align: justify;
-}
-
-#email {
-  text-decoration: none;
 }
 
 .logo {
