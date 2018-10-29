@@ -4,7 +4,7 @@ body {
   margin: 0;
   background-image: url("http://cpn.rs/nioo/wp-content/uploads/2018/02/background.jpg");
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: 100% 100vh;
   font-family: Garamond, serif;
 }
 
