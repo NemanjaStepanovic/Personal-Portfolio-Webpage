@@ -17,7 +17,7 @@
   /* Header styles */
   header {
     padding: 30% 10% 15%;
-    font-size: 2rem;
+    font-size: 1.75rem;
     height: 77.5vh;
   }
 
@@ -43,7 +43,8 @@
   }
 }
 
-/* Small screen tablet responsive styles */
+
+/* Tablet responsive styles */
 @media only screen and (min-width: 481px) and (max-width: 752px) {
   /* Universal styles */
   html {
@@ -62,7 +63,7 @@
   /* Header styles */
   header {
     padding: 25% 10% 15%;
-    font-size: 2.1rem;
+    font-size: 2rem;
     height: 70.75vh;
   }
 
@@ -86,7 +87,8 @@
   }
 }
 
-/* Big screen tablet responsive styles */
+
+/* Laptop responsive styles */
 @media only screen and (min-width: 753px) and (max-width: 1024px) {
   /* Universal styles */
   html {
