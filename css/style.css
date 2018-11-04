@@ -1,154 +1,154 @@
 /* Universal styles */
 body {
-  padding: 0;
-  margin: 0;
-  background-image: url("http://cpn.rs/nioo/wp-content/uploads/2018/02/background.jpg");
-  background-attachment: fixed;
-  background-size: 100% 100vh;
-  font-family: Garamond, serif;
+    padding: 0;
+    margin: 0;
+    background-image: url("http://cpn.rs/nioo/wp-content/uploads/2018/02/background.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+    font-family: Garamond, serif;
 }
 
 .title {
-  text-align: center;
-  margin-bottom: 5%;
-  font-variant: small-caps;
+    text-align: center;
+    margin-bottom: 5%;
+    font-variant: small-caps;
 }
 
 /* Navigation styles */
 nav ul {
-  background-color: #000044;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  overflow: hidden;
+    background-color: #000044;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
 }
 
 nav ul li {
-  float: left;
-  border-right: 1px solid #9999ff;
+    float: left;
+    border-right: 1px solid #9999ff;
 }
 
 nav ul li:last-child {
-  border-right: none;
+    border-right: none;
 }
 
 nav ul li:hover {
-  background-color: #9999ff;
+    background-color: #9999ff;
 }
 
 nav ul li a {
-  display: block;
-  padding: 18px;
-  color: white;
-  font-size: 1.2rem;
-  text-decoration: none;
-  font-variant: small-caps;
+    display: block;
+    padding: 18px;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-variant: small-caps;
 }
 
 nav ul li a:hover {
-  color: #0040ff;
+    color: #0040ff;
 }
 
 #nameInNav {
-  padding: 18px;
-  color: white;
-  font-size: 1.2rem;
-  float: right;
-  cursor: default;
+    padding: 18px;
+    color: white;
+    font-size: 1.2rem;
+    float: right;
+    cursor: default;
 }
 
 #nameInNav:hover {
-  background-color: #000044;
+    background-color: #000044;
 }
 
 /* Header styles */
 header {
-  text-align: center;
-  padding: 15% 10%;
-  color: darkblue;
-  font-size: 2.2rem;
-  height: 55vh;
-  font-family: algerian, serif;
-  font-variant: small-caps;
+    text-align: center;
+    padding: 15% 10%;
+    color: darkblue;
+    font-size: 2.2rem;
+    height: 55vh;
+    font-family: algerian, serif;
+    font-variant: small-caps;
 }
 
 /* About me section styles */
 .aboutBox {
-  padding: 2%;
-  font-size: 1.5rem;
-  color: darkblue;
-  background-color: #e6e6e6;
-  overflow: auto;
+    padding: 2%;
+    font-size: 1.5rem;
+    color: darkblue;
+    background-color: #e6e6e6;
+    overflow: auto;
 }
 
 .aboutBox p {
-  text-indent: 5%;
-  text-align: justify;
+    text-indent: 5%;
+    text-align: justify;
 }
 
 #myPicture {
-  max-width: 50%;
-  float: right;
-  border-radius: 20px;
-  margin-left: 2%
+    max-width: 50%;
+    float: right;
+    border-radius: 20px;
+    margin-left: 2%
 }
 
 /* Portfolio section styles */
 .portfoliBox {
-  padding: 2%;
-  font-size: 1.5rem;
-  color: darkblue;
-  background-color: #d9d9d9;
+    padding: 2%;
+    font-size: 1.5rem;
+    color: darkblue;
+    background-color: #d9d9d9;
 }
 
 #portfolioImages {
-  display: inline-block;
+    display: inline-block;
 }
 
 #portfolioImages a img {
-  width: 45%;
-  margin: 2%;
-  border: 1px solid darkblue;
-  border-radius: 10px;
-  height: 300px;
+    width: 45%;
+    margin: 2%;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    height: 300px;
 }
 
 /* Contact section styles */
 .contactBox {
-  padding: 2%;
-  font-size: 1.5rem;
-  color: darkblue;
-  background-color: #cccccc;
+    padding: 2%;
+    font-size: 1.5rem;
+    color: darkblue;
+    background-color: #cccccc;
 }
 
 .contactBox p {
-  text-indent: 5%;
-  text-align: justify;
+    text-indent: 5%;
+    text-align: justify;
 }
 
 .logo {
-  border-radius: 100%;
-  width: 75px;
-  margin: 1%;
+    border-radius: 100%;
+    width: 75px;
+    margin: 1%;
 }
 
 /* Footer styles */
 footer {
-  background-color: #000044;
-  color: white;
-  text-align: center;
-  padding: 1%;
-  font-size: smaller;
+    background-color: #000044;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    font-size: smaller;
 }
 
 footer a {
-  text-decoration: none;
-  color: lightblue;
+    text-decoration: none;
+    color: lightblue;
 }
 
 footer a:hover {
-  color: darkcyan;
+    color: darkcyan;
 }

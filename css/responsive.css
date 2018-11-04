@@ -1,116 +1,116 @@
 /* Smartphone responsive styles */
 @media only screen and (max-width: 480px) {
-  /* Universal styles */
-  html {
-    font-size: 12px;
-  }
+    /* Universal styles */
+    html {
+        font-size: 12px;
+    }
 
-  /* Navigation styles */
-  nav ul li a {
-    padding: 9px;
-  }
+    /* Navigation styles */
+    nav ul li a {
+        padding: 9px;
+    }
 
-  #nameInNav {
-    display: none;
-  }
+    #nameInNav {
+        display: none;
+    }
 
-  /* Header styles */
-  header {
-    padding: 30% 10% 15%;
-    font-size: 1.75rem;
-    height: 77.5vh;
-  }
+    /* Header styles */
+    header {
+        padding: 30% 10% 15%;
+        font-size: 1.75rem;
+        height: 77.5vh;
+    }
 
-  /* About me section styles */
-  #myPicture {
-    max-width: 75%;
-    float: none;
-    display: block;
-    margin: auto;
-  }
+    /* About me section styles */
+    #myPicture {
+        max-width: 75%;
+        float: none;
+        display: block;
+        margin: auto;
+    }
 
-  /* Portfolio section styles */
-  #portfolioImages a img {
-    width: 85%;
-    display: block;
-    margin: 5% auto;
-    height: 175px;
-  }
+    /* Portfolio section styles */
+    #portfolioImages a img {
+        width: 85%;
+        display: block;
+        margin: 5% auto;
+        height: 175px;
+    }
 
-  /* Contact section styles */
-  .logo {
-    width: 50px;
-  }
+    /* Contact section styles */
+    .logo {
+        width: 50px;
+    }
 }
 
 
 /* Tablet responsive styles */
 @media only screen and (min-width: 481px) and (max-width: 752px) {
-  /* Universal styles */
-  html {
-    font-size: 13px;
-  }
+    /* Universal styles */
+    html {
+        font-size: 13px;
+    }
 
-  /* Navigation styles */
-  nav ul li a {
-    padding: 11px;
-  }
+    /* Navigation styles */
+    nav ul li a {
+        padding: 11px;
+    }
 
-  #nameInNav {
-    display: none;
-  }
+    #nameInNav {
+        display: none;
+    }
 
-  /* Header styles */
-  header {
-    padding: 25% 10% 15%;
-    font-size: 2rem;
-    height: 70.75vh;
-  }
+    /* Header styles */
+    header {
+        padding: 25% 10% 15%;
+        font-size: 2rem;
+        height: 70.75vh;
+    }
 
-  /* About me section styles */
-  #myPicture {
-    max-width: 55%;
-    margin-left: 2.5%
-  }
+    /* About me section styles */
+    #myPicture {
+        max-width: 55%;
+        margin-left: 2.5%
+    }
 
-  /* Portfolio section styles */
-  #portfolioImages a img {
-    width: 70%;
-    display: block;
-    margin: 2.5% auto;
-    height: 225px;
-  }
+    /* Portfolio section styles */
+    #portfolioImages a img {
+        width: 70%;
+        display: block;
+        margin: 2.5% auto;
+        height: 225px;
+    }
 
-  /* Contact section styles */
-  .logo {
-    width: 62.5px;
-  }
+    /* Contact section styles */
+    .logo {
+        width: 62.5px;
+    }
 }
 
 
 /* Laptop responsive styles */
 @media only screen and (min-width: 753px) and (max-width: 1024px) {
-  /* Universal styles */
-  html {
-    font-size: 14px;
-  }
+    /* Universal styles */
+    html {
+        font-size: 14px;
+    }
 
-  /* Navigation styles */
-  nav ul li a {
-    padding: 14px;
-  }
+    /* Navigation styles */
+    nav ul li a {
+        padding: 14px;
+    }
 
-  #nameInNav {
-    padding: 14px;
-  }
+    #nameInNav {
+        padding: 14px;
+    }
 
-  /* Header styles */
-  header {
-    height: 70vh;
-  }
+    /* Header styles */
+    header {
+        height: 70vh;
+    }
 
-  /* Portfolio section styles */
-  #portfolioImages a img {
-    height: 250px;
-  }
+    /* Portfolio section styles */
+    #portfolioImages a img {
+        height: 250px;
+    }
 }
