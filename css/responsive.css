@@ -6,6 +6,11 @@
     }
 
     /* Navigation styles */
+    nav ul li {
+        width:24.65%;
+        text-align: center;
+    }
+
     nav ul li a {
         padding: 9px;
     }
@@ -29,6 +34,12 @@
         margin: auto;
     }
 
+    .aboutBox p {
+        text-indent: 10%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
     /* Portfolio section styles */
     #portfolioImages a img {
         width: 85%;
@@ -38,8 +49,13 @@
     }
 
     /* Contact section styles */
+    .contactBox p {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
     .logo {
-        width: 50px;
+        width: 45px;
     }
 }
 
