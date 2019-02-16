@@ -1,138 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
 /* Universal styles */
+html {
+    font-size: 16px;
+}
+
 body {
     padding: 0;
     margin: 0;
     background-image: url("https://image.ibb.co/dkSHfA/background.jpg");
     background-attachment: fixed;
-    background-size: 100% 100vh;
-    font-family: Garamond, serif;
+    background-size: 100vw 100vh;
+    font-family: monospace;
 }
 
 .title {
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 5vh;
     font-variant: small-caps;
 }
 
 /* Navigation styles */
-nav ul {
-    background-color: #000044;
-    width: 100%;
+#navbar {
     position: fixed;
     top: 0;
+    left: 0;
+    background-color: #000044;
+    width: 100vw;
+}
+
+#navbar ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    overflow: hidden;
 }
 
-nav ul li {
-    float: left;
-    border-right: 1px solid #9999ff;
+#navbar ul li {
+    float: right;
 }
 
-nav ul li:last-child {
-    border-right: none;
-}
-
-nav ul li:hover {
+#navbar ul li:hover {
     background-color: #9999ff;
 }
 
-nav ul li a {
+#navbar ul li a {
     display: block;
     padding: 18px;
+    margin: 0 1vw;
     color: white;
     font-size: 1.2rem;
     text-decoration: none;
-    font-variant: small-caps;
 }
 
-nav ul li a:hover {
+#navbar ul li a:hover {
     color: #0040ff;
 }
 
-#nameInNav {
-    padding: 18px;
-    color: white;
-    font-size: 1.2rem;
-    float: right;
-    cursor: default;
-}
-
-#nameInNav:hover {
-    background-color: #000044;
-}
-
-/* Header styles */
-header {
+/* Welcome screen styles */
+#welcome-section {
+    min-height: 100vh;
     text-align: center;
-    padding: 15% 10%;
     color: darkblue;
-    font-size: 2.2rem;
-    height: 55vh;
-    font-family: algerian, serif;
+    font-size: 2rem;
+    margin: 33vh 5vw -33vh 5vw;
+    font-family: 'Bitter', serif;
     font-variant: small-caps;
 }
 
 /* About me section styles */
 .aboutBox {
-    padding: 2%;
-    font-size: 1.5rem;
+    min-height: 100vh;
+    padding: 3vw;
+    font-size: 1.4rem;
     color: darkblue;
     background-color: #e6e6e6;
-    overflow: auto;
-}
-
-.aboutBox p {
-    text-indent: 5%;
-    text-align: justify;
 }
 
 #myPicture {
-    max-width: 50%;
+    max-width: 50vw;
     float: right;
     border-radius: 20px;
-    margin-left: 2%
+    margin-left: 3vw;
+}
+
+.aboutBox p {
+    text-indent: 5vw;
+    text-align: justify;
 }
 
 /* Portfolio section styles */
 .portfoliBox {
-    padding: 2%;
-    font-size: 1.5rem;
+    min-height: 100vh;
+    padding: 3vw;
+    font-size: 1.4rem;
     color: darkblue;
     background-color: #d9d9d9;
 }
 
-#portfolioImages {
+.project-tile {
     display: inline-block;
 }
 
-#portfolioImages a img {
-    width: 45%;
-    margin: 2%;
+.project-tile a img {
+    width: 41.4vw;
+    margin: 2vw;
     border: 1px solid darkblue;
     border-radius: 10px;
-    height: 300px;
+    height: 250px;
 }
 
 /* Contact section styles */
 .contactBox {
-    padding: 2%;
-    font-size: 1.5rem;
+    min-height: 100vh;
+    padding: 3vw;
+    font-size: 1.4rem;
     color: darkblue;
     background-color: #cccccc;
 }
 
 .contactBox p {
-    text-indent: 5%;
+    text-indent: 5vw;
     text-align: justify;
 }
 
 .logo {
-    border-radius: 100%;
+    border-radius: 50%;
     width: 75px;
-    margin: 1%;
+    margin: 1vw;
 }
 
 /* Footer styles */
@@ -140,15 +134,15 @@ footer {
     background-color: #000044;
     color: white;
     text-align: center;
-    padding: 1%;
+    padding: 1vw;
     font-size: smaller;
 }
 
-footer a {
+#profile-link {
     text-decoration: none;
     color: lightblue;
 }
 
-footer a:hover {
+#profile-link:hover {
     color: darkcyan;
 }

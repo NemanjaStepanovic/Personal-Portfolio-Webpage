@@ -1,30 +1,34 @@
+<!-- Website: freeCodeCamp -->
+<!-- Certification: Responsive Web Design -->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Personal Portfolio Webpage</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- favicon.ico -->
-        <link href="https://image.ibb.co/icGEVA/android-chrome-192x192.png" rel="shortcut icon" />
+        <link href="https://image.ibb.co/icGEVA/android-chrome-192x192.png" rel="shortcut icon">
         <!-- CSS -->
-        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet">
         <!-- Media queries -->
-        <link href="css/responsive.css" rel="stylesheet" />
+        <link href="css/responsive.css" rel="stylesheet">
     </head>
     <body>
+        <p id="home">.</p>
+        
         <!-- Navigation bar -->
-        <nav>
+        <nav id="navbar">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li id="nameInNav">Nemanja Stepanović</li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#home">Home</a></li>
             </ul>
         </nav>
 
         <!-- Welcome screen -->
-        <header id="home">
+        <header id="welcome-section">
             <h1>Welcome to Nemanja's portfolio webpage</h1>
         </header>
 
@@ -32,21 +36,23 @@
         <section class="aboutBox" id="about">
             <h2 class="title">About me</h2>
             <img src="https://image.ibb.co/gwfLHq/About-me-slika.png" alt="Picture of Nemanja Stepanović" id="myPicture" />
-            <p>Hi, my name is Nemanja Stepanović, and I was born the 10th of January, 1994. I'm from Serbia and I live in the village of Dobrić near Šabac, which is approximately 100 km away from Belgrade, the capital city of Serbia. I have graduated from the Higher Medical and Business-Technological School of Applied Studies in Šabac with a degree in electrical engineering and computer science with a GPA of 8.9/10. The course I took was Information Technology. Since March 2016 I have enthusiastically been studying programming, not only in school, but also via Internet. I think I have tried every possible way of learning, as in, watching many hours of video tutorials, learning through websites like Free Code Camp, Codecademy, Khan Academy, and many others, and also learning through the mobile app SoloLearn. I also finished two courses, eSova (JavaScript) and Clever (HTML, CSS, Bootstrap, JavaScript), coming in at number one in Šabac. The last couple of months I've mostly been reading e-books (I've read seven already). As a result, I now have enough knowledge to make programs in HTML, CSS, Bootstrap, JavaScript, jQuery, C# (inc. LINQ), T-SQL, ASP.NET MVC, etc. I'm currently looking to get a job as a junior programmer using the skills I already possess. I'm a workaholic and I see myself as a future programmer. I love creating stuff with code, it's like having superpowers in real life, and yes, in my younger years I read many comics.</p>
+            <p>Hi, my name is Nemanja Stepanović, and I was born the 10th of January, 1994. I'm from Serbia and I live in the village of Dobrić near Šabac, which is approximately 100 km away from Belgrade, the capital city of Serbia. I have graduated from the Higher Medical and Business-Technological School of Applied Studies in Šabac with a degree in electrical engineering and computer science with a GPA of 8.9/10. The course I took was Information Technology. Since March 2016 I have enthusiastically been studying programming, not only in school, but also via Internet. I think I have tried every possible way of learning, as in, watching many hours of video tutorials, learning through websites like Free Code Camp, Codecademy, and many others, and also learning through the mobile app SoloLearn. I also finished two courses, eSova (JavaScript) and Clever (HTML, CSS, Bootstrap, JavaScript), coming in at number one in Šabac. The last couple of months I've mostly been reading e-books (I've read seven already). As a result, I now have enough knowledge to make programs in HTML, CSS, Bootstrap, JavaScript, jQuery, C# (inc. LINQ), T-SQL, ASP.NET MVC, etc. I'm currently looking to get a job as a junior programmer using the skills I already possess. I'm a workaholic and I see myself as a future programmer. I love creating stuff with code, it's like having superpowers in real life, and yes, in my younger years I read many comics.</p>
         </section>
 
         <!-- Portfolio section -->
-        <section class="portfoliBox" id="portfolio">
+        <section class="portfoliBox" id="projects">
             <h2 class="title">Portfolio</h2>
-            <div id="portfolioImages">
-                <!-- Project "A tribute page" -->
-                <a href="https://nemanjastepanovic.github.io/A-Tribute-Page/" target="_blank"><img src="https://image.ibb.co/eQPfHq/A-Tribute-Page-slika.png" alt="Project 'A Tribute Page' dedicated to Nick Vujičić" title="A Tribute Page" /></a>
-                <!-- Project "Random quote machine" -->
-                <a href="https://nemanjastepanovic.github.io/Random-Quote-Machine/" target="_blank"><img src="https://image.ibb.co/gLkFiV/Random-Quote-Machine-slika.png" alt=" Project 'Random Quote Machine'" title="Random Quote Machine" /></a>
-                <!-- Project "Show the local weather" -->
-                <a href="https://nemanjastepanovic.github.io/Show-the-Local-Weather/" target="_blank"><img src="https://image.ibb.co/iA6cxq/Show-the-Local-Weather-slika.png" alt="Project 'Show the Local Weather'" title="Show the Local Weather" /></a>
-                <!-- Project "Counter of days" -->
-                <a href="https://github.com/NemanjaStepanovic/Counter-of-Days" target="_blank"><img src="https://image.ibb.co/imPrOV/1024x1024bb.png" alt="Project 'Counter of Days'" title="Counter of Days" /></a>
+            <div class="project-tile">
+                <!-- Project "A Tribute Page" -->
+                <a href="https://nemanjastepanovic.github.io/A-Tribute-Page/" target="_blank"><img src="https://image.ibb.co/eQPfHq/A-Tribute-Page-slika.png" alt="Project 'A Tribute Page' dedicated to Nick Vujičić" title="A Tribute Page"></a>
+                <!-- Project "Random Quote Machine" -->
+                <a href="https://nemanjastepanovic.github.io/Random-Quote-Machine/" target="_blank"><img src="https://image.ibb.co/gLkFiV/Random-Quote-Machine-slika.png" alt=" Project 'Random Quote Machine'" title="Random Quote Machine"></a>
+                <!-- Project "Show the Local Weather" -->
+                <a href="https://nemanjastepanovic.github.io/Show-the-Local-Weather/" target="_blank"><img src="https://image.ibb.co/iA6cxq/Show-the-Local-Weather-slika.png" alt="Project 'Show the Local Weather'" title="Show the Local Weather"></a>
+                <!-- Project "Counter of Days" -->
+                <a href="https://github.com/NemanjaStepanovic/Counter-of-Days" target="_blank"><img src="https://image.ibb.co/imPrOV/1024x1024bb.png" alt="Project 'Counter of Days'" title="Counter of Days"></a>
+                <!-- Project "Survey Form" -->
+                <a href="https://nemanjastepanovic.github.io/Survey-Form/" target="_blank"><img src="https://i.ibb.co/xY9FHCg/Survey-Form.png" alt="Project 'Survey form'" title='Survey Form'></a>
             </div>
         </section>
 
@@ -54,13 +60,13 @@
         <section class="contactBox" id="contact">
             <h2 class="title">Contact</h2>
             <p>If you want to get in touch with me you can do it through my Facebook and Linkedin accounts. Also you can do it via email <a href="mailto:nemanjastepi10@gmail.com">nemanjastepi10@gmail.com</a>. I will gladly talk with you about programming, life philosophy or any other topic.</p>
-            <a href="https://www.facebook.com/nemanja.stepanovic.3" target="_blank"><img src="https://image.ibb.co/m7bMOV/600px-Facebook-icon-1.png" alt="Facebook logo" title="Facebook" class="logo" /></a>
-            <a href="https://www.linkedin.com/in/nemanja-stepanovi%C4%87-96014114b/" target="_blank"><img src="https://image.ibb.co/gu1o3V/Linked-In-logo.png" alt="LinkedIn logo" title="LinkedIn" class="logo" /></a>
+            <a href="https://www.facebook.com/nemanja.stepanovic.3" target="_blank"><img src="https://image.ibb.co/m7bMOV/600px-Facebook-icon-1.png" alt="Facebook logo" title="Facebook" class="logo"></a>
+            <a href="https://www.linkedin.com/in/nemanja-stepanovi%C4%87-96014114b/" target="_blank"><img src="https://image.ibb.co/gu1o3V/Linked-In-logo.png" alt="LinkedIn logo" title="LinkedIn" class="logo"></a>
         </section>
 
         <!-- Footer -->
         <footer>
-            Written and coded by <a href="https://github.com/NemanjaStepanovic" target="_blank">Nemanja Stepanović</a>.
+            Written and coded by <a href="https://github.com/NemanjaStepanovic" target="_blank" id="profile-link">Nemanja Stepanović</a>.
         </footer>
     </body>
 </html>
