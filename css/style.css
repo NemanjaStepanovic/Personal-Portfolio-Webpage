@@ -3,7 +3,7 @@
 /* Universal styles */
 html {
     font-size: 16px;
-    scroll-behavior: smooth;
+    line-height: 1.5;
 }
 
 body {
@@ -18,15 +18,14 @@ body {
 .title {
     text-align: center;
     margin-bottom: 5vh;
-    font-variant: small-caps;
+    font-size: 2rem;
 }
 
 /* Navigation styles */
 #navbar {
     position: fixed;
     top: 0;
-    left: 0;
-    background-color: #000044;
+    background-image: linear-gradient(#222, #000, #000);
     width: 100vw;
 }
 
@@ -34,54 +33,47 @@ body {
     margin: 0;
     padding: 0;
     list-style-type: none;
-}
-
-#navbar ul li {
-    float: right;
-}
-
-#navbar ul li:hover {
-    background-color: #9999ff;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #navbar ul li a {
     display: block;
-    padding: 18px;
-    margin: 0 1vw;
+    padding: 15px;
+    margin-right: 2vw;
     color: white;
-    font-size: 1.2rem;
     text-decoration: none;
 }
 
-#navbar ul li a:hover {
-    color: #0040ff;
+#navbar ul li a.active {
+    color: orange;
 }
 
 /* Welcome screen styles */
 #welcome-section {
     min-height: 100vh;
     text-align: center;
-    color: darkblue;
+    color: #000;
     font-size: 2rem;
     margin: 33vh 5vw -33vh 5vw;
     font-family: 'Bitter', serif;
     font-variant: small-caps;
+    cursor: default;
 }
 
 /* About me section styles */
 .aboutBox {
     min-height: 100vh;
-    padding: 3vw;
-    font-size: 1.4rem;
-    color: darkblue;
-    background-color: #e6e6e6;
+    padding: 5vw;
+    color: white;
+    background-image: linear-gradient(#111, #111, #111, #111, #222);
 }
 
 #myPicture {
-    max-width: 50vw;
+    width: 33vw;
     float: right;
-    border-radius: 20px;
-    margin-left: 3vw;
+    border-radius: 10px;
+    margin-left: 5vw;
 }
 
 .aboutBox p {
@@ -92,58 +84,73 @@ body {
 /* Portfolio section styles */
 .portfoliBox {
     min-height: 100vh;
-    padding: 3vw;
-    font-size: 1.4rem;
-    color: darkblue;
-    background-color: #d9d9d9;
+    padding: 5vw;
+    color: white;
+    background-image: linear-gradient(#222, #222, #222, #222, #333);
 }
 
-.project-tile {
-    display: inline-block;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.project-tile a img {
-    width: 41.4vw;
-    margin: 2vw;
-    border: 1px solid darkblue;
-    border-radius: 10px;
-    height: 250px;
+.container .project-tile a img {
+    border-radius: 10px 10px 0 0;
+    width: 40vw;
+    height: 33vh;
+}
+
+.container .project-tile p {
+    text-align: center;
+    margin: -1vh 0 5vh 0;
+    background-color: white;
+    color: black;
+    padding: 1vh 0;
+}
+
+.container #last-item {
+    visibility: hidden;
 }
 
 /* Contact section styles */
 .contactBox {
+    text-align: center;
     min-height: 100vh;
-    padding: 3vw;
-    font-size: 1.4rem;
-    color: darkblue;
-    background-color: #cccccc;
+    padding: 5vw;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #333;
 }
 
 .contactBox p {
-    text-indent: 5vw;
-    text-align: justify;
+    margin-top: 15vh;
 }
 
-.logo {
-    border-radius: 50%;
-    width: 75px;
-    margin: 1vw;
+.contactBox .links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contactBox #project-link, .contactBox .logo {
+    text-decoration: none;
+    color: orange;
+    font-size: 1rem;
+    border: 1px solid orange;
+    padding: 10px;
+}
+
+.contactBox #project-link:hover, .contactBox .logo:hover {
+    background-color: white;
+    font-size: 1.25rem;
 }
 
 /* Footer styles */
 footer {
-    background-color: #000044;
+    background-image: linear-gradient(#000, #000, #111);
     color: white;
     text-align: center;
-    padding: 1vw;
-    font-size: smaller;
-}
-
-#profile-link {
-    text-decoration: none;
-    color: lightblue;
-}
-
-#profile-link:hover {
-    color: darkcyan;
+    padding: 1vh 0;
+    font-size: 0.75rem;
 }
