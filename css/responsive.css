@@ -2,7 +2,7 @@
 @media only screen and (max-width: 480px) {
     /* Universal styles */
     html {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     /* Navigation styles */
@@ -17,8 +17,7 @@
 
     /* Welcome screen styles */
     #welcome-section {
-        margin: 25vh 10vw -25vh 10vw;
-        font-size: 1.5rem;
+        font-size: 1.35rem;
     }
 
     /* About me section styles */
@@ -34,7 +33,7 @@
     }
 
     .aboutBox p {
-        text-indent: 10vw;
+        text-align: center;
     }
 
     /* Portfolio section styles */
@@ -76,7 +75,7 @@
 @media only screen and (min-width: 481px) and (max-width: 767px) {
     /* Universal styles */
     html {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     /* Navigation styles */
@@ -86,8 +85,7 @@
 
     /* Welcome screen styles */
     #welcome-section {
-        margin: 25vh 7.5vw -25vh 7.5vw;
-        font-size: 1.75rem;
+        font-size: 1.55rem;
     }
 
     /* About me section styles */
