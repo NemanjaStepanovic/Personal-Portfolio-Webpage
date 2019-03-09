@@ -56,12 +56,12 @@
         padding: 10vw;
     }
 
-    .contactBox #project-link, .contactBox .logo {
+    .contactBox #profile-link, .contactBox .logo {
         padding: 7.5px;
         margin: 1vh 1vw;
     }
 
-    .contactBox #project-link:hover, .contactBox .logo:hover {
+    .contactBox #profile-link:hover, .contactBox .logo:hover {
         font-size: 1.1rem;
     }
 
@@ -121,7 +121,7 @@
         padding: 7.5vw;
     }
 
-    .contactBox #project-link, .contactBox .logo {
+    .contactBox #profile-link, .contactBox .logo {
         margin: 1vh 1vw;
     }
 
