@@ -133,7 +133,7 @@ body {
     justify-content: center;
 }
 
-.contactBox #project-link, .contactBox .logo {
+.contactBox #profile-link, .contactBox .logo {
     text-decoration: none;
     color: orange;
     font-size: 1rem;
@@ -141,7 +141,7 @@ body {
     padding: 10px;
 }
 
-.contactBox #project-link:hover, .contactBox .logo:hover {
+.contactBox #profile-link:hover, .contactBox .logo:hover {
     background-color: white;
     font-size: 1.25rem;
 }
