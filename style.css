@@ -3,7 +3,7 @@
 /** Desktop styles **/
 /* Universal styles */
 html {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -81,7 +81,6 @@ body {
 }
 
 .aboutBox p {
-    text-indent: 5vw;
     text-align: justify;
 }
 
@@ -160,11 +159,66 @@ footer {
 }
 
 
+/** Landscape smartphone styles | Low resolution tablet styles **/
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* Universal styles */
+    html {
+        font-size: 14px;
+    }
+
+    /* Navigation styles */
+    #navbar ul li a {
+        padding: 12.5px;
+    }
+
+    /* Welcome screen styles */
+    #welcome-section {
+        font-size: 1.55rem;
+    }
+
+    /* About me section styles */
+    .aboutBox {
+        padding: 7.5vw;
+    }
+
+    #myPicture {
+        float:none;
+        display: block;
+        width: 50vw;
+        margin: 0 auto;
+    }
+
+    /* Portfolio section styles */
+    .portfolioBox {
+        padding: 7.5vw;
+    }
+
+    .container .project-tile a img {
+        width: 40vw;
+        height: 25vh;
+    }
+
+    /* Contact section styles */
+    .contactBox {
+        padding: 7.5vw;
+    }
+
+    .contactBox #profile-link, .contactBox .logo {
+        margin: 1vh 1vw;
+    }
+
+    /* Footer styles */
+    footer {
+        padding: 1.25vh 0;
+    }
+}
+
+
 /** Portrait smartphone styles **/
 @media only screen and (max-width: 480px) {
     /* Universal styles */
     html {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     /* Navigation styles */
@@ -229,64 +283,5 @@ footer {
     /* Footer styles */
     footer {
         padding: 1.5vh 0;
-    }
-}
-
-
-/** Landscape smartphone styles | low resolution tablet styles **/
-@media only screen and (min-width: 481px) and (max-width: 767px) {
-    /* Universal styles */
-    html {
-        font-size: 16px;
-    }
-
-    /* Navigation styles */
-    #navbar ul li a {
-        padding: 12.5px;
-    }
-
-    /* Welcome screen styles */
-    #welcome-section {
-        font-size: 1.55rem;
-    }
-
-    /* About me section styles */
-    .aboutBox {
-        padding: 7.5vw;
-    }
-
-    #myPicture {
-        float:none;
-        display: block;
-        width: 50vw;
-        margin: 0 auto;
-    }
-
-    .aboutBox p {
-        text-indent: 7.5vw;
-    }
-
-    /* Portfolio section styles */
-    .portfolioBox {
-        padding: 7.5vw;
-    }
-
-    .container .project-tile a img {
-        width: 40vw;
-        height: 25vh;
-    }
-
-    /* Contact section styles */
-    .contactBox {
-        padding: 7.5vw;
-    }
-
-    .contactBox #profile-link, .contactBox .logo {
-        margin: 1vh 1vw;
-    }
-
-    /* Footer styles */
-    footer {
-        padding: 1.25vh 0;
     }
 }
