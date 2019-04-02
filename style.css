@@ -120,14 +120,15 @@ body {
 .contactBox {
     min-height: 100vh;
     text-align: center;
+    font-size: 1rem;
     padding: 5vw;
-    font-size: 1.25rem;
     color: white;
     background-color: #333;
 }
 
 .contactBox p {
     margin-top: 15vh;
+    font-size: 1.25rem;
 }
 
 .contactBox .links-container {
@@ -139,14 +140,12 @@ body {
 .contactBox #profile-link, .contactBox .logo {
     text-decoration: none;
     color: orange;
-    font-size: 1rem;
     border: 1px solid orange;
     padding: 10px;
 }
 
 .contactBox #profile-link:hover, .contactBox .logo:hover {
     background-color: white;
-    font-size: 1.25rem;
 }
 
 /* Footer styles */
@@ -274,10 +273,6 @@ footer {
     .contactBox #profile-link, .contactBox .logo {
         padding: 7.5px;
         margin: 1vh 1vw;
-    }
-
-    .contactBox #profile-link:hover, .contactBox .logo:hover {
-        font-size: 1.1rem;
     }
 
     /* Footer styles */
