@@ -1,7 +1,6 @@
 <h1>Personal Portfolio Webpage</h1>
 <p>Portfolio webpage with <em>Home</em>, <em>About</em>, <em>Portfolio</em> and <em>Contact</em> sections that describes who I am and what can I do with my programming skills.</p>
 <p>Project originally made for <a href="https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage" target="_blank">freeCodeCamp</a> website in the <em>Responsive Web Design Certification</em> challenges.</p>
-<p><strong>ASP.NET MVC</strong> version of this project you can find on my OneDrive <a href="https://1drv.ms/f/s!Apz6jRASkLnipUICx8T_VSJZI-re" target="_blank">shared link</a>.</p>
 
 <h2>Technologies used:</h2>
 <ol>
